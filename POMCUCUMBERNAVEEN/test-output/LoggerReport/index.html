@@ -51,14 +51,6 @@
 							</a>
 						</li>
 						<li>
-							<a href="exception.html">
-							<span class="nav-icon">
-							<i class="fa fa-warning"></i>
-							</span>
-							<span class="nav-text">Exceptions</span>
-							</a>
-						</li>
-						<li>
 							<a href="dashboard.html">
 							<span class="nav-icon">
 							<i class="fa fa-dashboard"></i>
@@ -103,11 +95,11 @@
 									</a>
 									<div class="dropdown-menu pt-0 mt-2 animate fadeIn">
 										<a class="dropdown-item" href="#"><span class="tf" status="pass"><i class="fa fa-dot-circle-o text-success"></i>Pass</span></a>
-										<a class="dropdown-item" href="#"><span class="tf" status="fail"><i class="fa fa-dot-circle-o text-danger"></i>Fail</span></a>
 										
 										
 										
-										<a class="dropdown-item" href="#"><span class="tf" status="skip"><i class="fa fa-dot-circle-o text-blue"></i>Skip</span></a>
+										
+										
 										<div class="dropdown-divider"></div>
 										<a class="dropdown-item" href="#"><span class="tf" status="clear"><i class="fa fa-dot-circle-o text-warn"></i>Clear</span></a>
 									</div>
@@ -137,20 +129,20 @@
 								<div class="col-md-8 col-sm-12">
 									<div class="logger-content">
 										<h6 class="mb-3 ml-1">Test Logs</h6>
-											<div class="tsc" status="fail">
-											<div class="st fail test l0" 
+											<div class="tsc" status="pass">
+											<div class="st pass test l0" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:16:42</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:50</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">[Leaftab login functionality] started</span>
 												
 											</div>
-											<div class="st fail test l1" 
+											<div class="st pass test l1" 
 												tags="@smoke"
 												devices="">
-												<span class="tt">05.11.2021 05:16:42</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:50</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">|---[Login with  postive credentials] started</span>
 												<span class="category-list">
 													<span class="category badge"><i class="fa fa-tag"></i> @smoke</span>
@@ -161,11 +153,11 @@
 												</span>
 												
 											</div>
-											<div class="st fail test l2" 
+											<div class="st pass test l2" 
 												tags="@smoke"
 												devices="">
-												<span class="tt">05.11.2021 05:16:42</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:50</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Login with  postive credentials] started</span>
 												<span class="category-list">
 													<span class="category badge"><i class="fa fa-tag"></i> @smoke</span>
@@ -179,93 +171,68 @@
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:16:42</span>&nbsp;
+												<span class="tt">05.11.2021 05:38:50</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given Enter username as demosalesmanager] started</span>
 												
 												<div class="st pass">
-													<span class="tt">05.11.2021 05:16:42</span>&nbsp;
+													<span class="tt">05.11.2021 05:38:50</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given Enter username as demosalesmanager]</span>
 													
 													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st fail test l3" 
+											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:16:42</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:50</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Enter password as crmsfa] started</span>
 												
-												<div class="st fail">
-													<span class="tt">05.11.2021 05:17:12</span>&nbsp;
-													<span class="ts">fail</span>&nbsp;&nbsp; 
+												<div class="st pass">
+													<span class="tt">05.11.2021 05:38:50</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Enter password as crmsfa]</span>
 													
-													<span class="td">threw an exception<br><textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#passwor"}
-  (Session info: chrome=90.0.4430.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'ANAND-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a106b6d989be6b01e1f91f0029cc777c
-*** Element info: {Using=id, value=passwor}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
-	at pages.LoginPage.enterPassword(LoginPage.java:26)
-	at step.LoginStep.enterPasswordAsCrmsfa(LoginStep.java:29)
-	at ?.Enter password as crmsfa(file:src/main/java/features/F01_Login.feature:24)
-</textarea></span>
+													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st skip test l3" 
+											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:17:12</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:50</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Login button] started</span>
 												
-												<div class="st skip">
-													<span class="tt">05.11.2021 05:17:12</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
+												<div class="st pass">
+													<span class="tt">05.11.2021 05:38:51</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Login button]</span>
 													
-													<span class="td">Step skipped</span>
+													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st skip test l3" 
+											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:17:12</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:51</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Homepage should be displayed] started</span>
 												
-												<div class="st skip">
-													<span class="tt">05.11.2021 05:17:12</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
+												<div class="st pass">
+													<span class="tt">05.11.2021 05:38:51</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Homepage should be displayed]</span>
 													
-													<span class="td">Step skipped</span>
+													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st fail test l2" 
+											<div class="st pass test l2" 
 												tags="@smoke"
 												devices="">
-												<span class="tt">05.11.2021 05:17:18</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:57</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;|---[Login with  postive credentials] started</span>
 												<span class="category-list">
 													<span class="category badge"><i class="fa fa-tag"></i> @smoke</span>
@@ -279,86 +246,61 @@ Session ID: a106b6d989be6b01e1f91f0029cc777c
 											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:17:18</span>&nbsp;
+												<span class="tt">05.11.2021 05:38:57</span>&nbsp;
 												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given Enter username as demoCSR] started</span>
 												
 												<div class="st pass">
-													<span class="tt">05.11.2021 05:17:18</span>&nbsp;
+													<span class="tt">05.11.2021 05:38:57</span>&nbsp;
 													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Given Enter username as demoCSR]</span>
 													
 													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st fail test l3" 
+											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:17:18</span>&nbsp;
-												<span class="ts">fail</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:57</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Enter password as crmsfa] started</span>
 												
-												<div class="st fail">
-													<span class="tt">05.11.2021 05:17:48</span>&nbsp;
-													<span class="ts">fail</span>&nbsp;&nbsp; 
+												<div class="st pass">
+													<span class="tt">05.11.2021 05:38:57</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[And Enter password as crmsfa]</span>
 													
-													<span class="td">threw an exception<br><textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#passwor"}
-  (Session info: chrome=90.0.4430.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
-System info: host: 'ANAND-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '14.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b86798e9eadaba3cf06ffcadee1271b
-*** Element info: {Using=id, value=passwor}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:381)
-	at pages.LoginPage.enterPassword(LoginPage.java:26)
-	at step.LoginStep.enterPasswordAsCrmsfa(LoginStep.java:29)
-	at ?.Enter password as crmsfa(file:src/main/java/features/F01_Login.feature:24)
-</textarea></span>
+													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st skip test l3" 
+											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:17:48</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:57</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Login button] started</span>
 												
-												<div class="st skip">
-													<span class="tt">05.11.2021 05:17:48</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
+												<div class="st pass">
+													<span class="tt">05.11.2021 05:38:58</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[When Click on Login button]</span>
 													
-													<span class="td">Step skipped</span>
+													<span class="td"></span>
 												</div>
 											</div>
-											<div class="st skip test l3" 
+											<div class="st pass test l3" 
 												tags=""
 												devices="">
-												<span class="tt">05.11.2021 05:17:48</span>&nbsp;
-												<span class="ts">skip</span>&nbsp;&nbsp;
+												<span class="tt">05.11.2021 05:38:58</span>&nbsp;
+												<span class="ts">pass</span>&nbsp;&nbsp;
 												<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Homepage should be displayed] started</span>
 												
-												<div class="st skip">
-													<span class="tt">05.11.2021 05:17:48</span>&nbsp;
-													<span class="ts">skip</span>&nbsp;&nbsp; 
+												<div class="st pass">
+													<span class="tt">05.11.2021 05:38:58</span>&nbsp;
+													<span class="ts">pass</span>&nbsp;&nbsp; 
 													<span class="tn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---[Then Homepage should be displayed]</span>
 													
-													<span class="td">Step skipped</span>
+													<span class="td"></span>
 												</div>
 											</div>
 											</div>

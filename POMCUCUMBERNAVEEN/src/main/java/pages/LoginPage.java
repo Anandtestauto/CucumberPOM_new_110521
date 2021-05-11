@@ -22,8 +22,8 @@ public class LoginPage extends SelBase {
 
 		public LoginPage enterPassword(String Password) throws InterruptedException {
 			//Thread.sleep(3000);
-			//driver.findElementById("password").sendKeys(Password);
-			driver.findElementById("passwor").sendKeys(Password);
+			driver.findElementById("password").sendKeys(Password);
+			//driver.findElementById("passwor").sendKeys(Password);
 			return this;
 		}
 
